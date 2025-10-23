@@ -29,7 +29,7 @@ Tech Stack:
 - Integrated contact form (via Formspree.io)
 
 Live Site:  
-🔗 https://karnitrapid.github.io/karnit-website
+🔗 https://karnit-rapid-sourcing.github.io/karnit-website/
 
 ---
 
@@ -38,7 +38,7 @@ Live Site:
 For inquiries or collaboration opportunities:
 
 📧 Email: karnittrade@gmail.com  
-🌍 Website: 
+🌍 Website: https://karnit-rapid-sourcing.github.io/karnit-website/
 
 ---
 
