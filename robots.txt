@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://karnit-rapid-sourcing.github.io/karnit-website/sitemap.xml
