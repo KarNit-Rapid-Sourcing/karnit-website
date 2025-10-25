@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/#home</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/#about</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/#services</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/#contact</loc>
+    <priority>0.9</priority>
+  </url>
+</urlset>
