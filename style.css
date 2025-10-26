@@ -577,3 +577,65 @@ nav {
   border-top: 1px solid rgba(255,255,255,0.1);
   box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
 }
+
+
+
+/* ===============================
+   Quote Page Heading Styling
+   =============================== */
+#quote .section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00ffd5;
+  text-shadow: 0 0 10px #00ffd5;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#quote .section-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 12px auto 0;
+  background: #00ffd5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ffd5;
+}
+
+#quote .section-subtext {
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  padding: 0 15px;
+}
+
+
+/* ===============================
+   Quote Page Heading Animation
+   =============================== */
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.fade-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.previous-id {
+  text-align: center;
+  color: #00ffd5;
+  margin: 10px auto 30px;
+  font-size: 1rem;
+  text-shadow: 0 0 8px #00ffd5;
+  transition: opacity 0.8s ease;
+}
