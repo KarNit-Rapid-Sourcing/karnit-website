@@ -49,5 +49,5 @@ All rights reserved.
 
 ---
 
-Developed and Maintained by SusKeyboard  
+Developed and Maintained by @SusKeyboard: https://github.com/SusKeyboard 
 (in collaboration with KarNit Rapid Sourcing)
