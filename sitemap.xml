@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Home Page -->
   <url>
-    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/</loc>
-    <lastmod>2025-10-26</lastmod>
+    <loc>https://karnitsourcing.com/</loc>
+    <lastmod>2025-10-31</lastmod>
     <priority>1.00</priority>
   </url>
 
+  <!-- Request a Quote Page -->
   <url>
-    <loc>https://karnit-rapid-sourcing.github.io/karnit-website/quote.html</loc>
-    <lastmod>2025-10-26</lastmod>
-    <priority>0.80</priority>
+    <loc>https://karnitsourcing.com/quote.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Terms & Conditions Page -->
+  <url>
+    <loc>https://karnitsourcing.com/terms.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <priority>0.70</priority>
+  </url>
+
+  <!-- Privacy Policy Page -->
+  <url>
+    <loc>https://karnitsourcing.com/privacy.html</loc>
+    <lastmod>2025-10-31</lastmod>
+    <priority>0.70</priority>
   </url>
 
 </urlset>
-
-

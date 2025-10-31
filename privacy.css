@@ -1,0 +1,111 @@
+/* --- Privacy Policy Page Styling --- */
+body {
+  background-color: #1a1a1a;
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+  padding-top: 120px; /* offset for fixed navbar */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+p, li {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* --- Navbar Fix for Consistent Size and Logo Spacing --- */
+.navbar {
+  background-color: #111111;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px 50px; /* slightly taller and more side space */
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.navbar .container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo size and alignment */
+.navbar img {
+  height: 100px; /* increase logo size */
+  margin-left: 40px; /* push away from left edge */
+  margin-top: 5px;
+
+}
+
+/* Nav links styling */
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 10px;
+}
+
+.navbar .nav-links li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #00aaff;
+}
+
+
+/* Footer */
+.footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 0 30px 0;
+  border-top: 1px solid #222;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
