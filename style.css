@@ -639,3 +639,46 @@ nav {
   text-shadow: 0 0 8px #00ffd5;
   transition: opacity 0.8s ease;
 }
+
+/* --- Global Footer (Full Width, Clean Layout) --- */
+.footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 0 30px 0;
+  border-top: 1px solid #222;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .brand {
+  color: #13b1cd;
+  font-weight: 600;
+}
+
+.footer a,
+.footer-link,
+.footer .dev-name {
+  color: #00aaff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover,
+.footer-link:hover,
+.footer .dev-name:hover {
+  color: #33ccff;
+  text-decoration: underline;
+}
+
