@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset 
-  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <!-- Home Page -->
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://karnitsourcing.com/</loc>
-    <lastmod>2025-10-31</lastmod>
-    <priority>1.00</priority>
+    <lastmod>2025-11-09</lastmod>
   </url>
-
-  <!-- Request a Quote Page -->
   <url>
     <loc>https://karnitsourcing.com/quote.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2025-11-09</lastmod>
   </url>
-
-  <!-- Terms & Conditions Page -->
   <url>
     <loc>https://karnitsourcing.com/terms.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <priority>0.70</priority>
+    <lastmod>2025-11-09</lastmod>
   </url>
-
-  <!-- Privacy Policy Page -->
   <url>
     <loc>https://karnitsourcing.com/privacy.html</loc>
-    <lastmod>2025-10-31</lastmod>
-    <priority>0.70</priority>
+    <lastmod>2025-11-09</lastmod>
   </url>
-
 </urlset>
