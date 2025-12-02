@@ -4,37 +4,38 @@
   <!-- Homepage -->
   <url>
     <loc>https://karnitsourcing.com/</loc>
-    <lastmod>2025-12-2</lastmod>
+    <lastmod>2025-12-2T18:15+5:30</lastmod>
     <priority>1.00</priority>
   </url>
 
   <!-- Products -->
   <url>
     <loc>https://karnitsourcing.com/products.html</loc>
-    <lastmod>2025-12-2</lastmod>
+    <lastmod>2025-12-2T18:15+5:30</lastmod>
     <priority>0.90</priority>
   </url>
 
   <!-- Quote Page -->
   <url>
     <loc>https://karnitsourcing.com/quote.html</loc>
-    <lastmod>2025-12-2</lastmod>
+    <lastmod>2025-12-2T18:15+5:30</lastmod>
     <priority>0.90</priority>
   </url>
 
   <!-- Terms & Conditions -->
   <url>
     <loc>https://karnitsourcing.com/terms.html</loc>
-    <lastmod>2025-12-2</lastmod>
+    <lastmod>2025-12-2T18:15+5:30</lastmod>
     <priority>0.40</priority>
   </url>
 
   <!-- Privacy Policy -->
   <url>
     <loc>https://karnitsourcing.com/privacy.html</loc>
-    <lastmod>2025-12-2</lastmod>
+    <lastmod>2025-12-2T18:15+5:30</lastmod>
     <priority>0.40</priority>
   </url>
 
 </urlset>
+
 
