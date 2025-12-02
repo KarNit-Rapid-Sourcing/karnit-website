@@ -8,6 +8,16 @@ window.addEventListener("scroll", function() {
 });
 
 
+// --- Autofill Product from URL ---
+const params = new URLSearchParams(window.location.search);
+const selectedProduct = params.get("product");
+
+if (selectedProduct) {
+  const productInput = document.getElementById("Product");
+  if (productInput) productInput.value = selectedProduct;
+}
+
+
 
 // quote.js
 const form = document.getElementById("quoteForm");

@@ -1,0 +1,117 @@
+.products-hero {
+  text-align: center;
+  padding: 120px 20px 60px;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url('img/products-bg.webp') center/cover no-repeat;
+}
+
+#searchInput {
+  width: 90%;
+  max-width: 420px;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 25px;
+  padding: 40px 20px;
+  grid-template-columns: repeat(4, 1fr);   /* 👈 max 4 per row*/ 
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url('img/pro-bg.webp') center/cover no-repeat;
+}
+
+
+@media (max-width: 1200px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);  /* 3 on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);  /* 2 on tablets */
+  }
+}
+
+@media (max-width: 540px) {
+  .product-grid {
+    grid-template-columns: repeat(1, 1fr);  /* 1 on phones */
+  }
+}
+
+/* Description styling */
+.product-desc {
+  color: #ddd;
+  font-size: 14px;
+  margin: 10px 0;
+  min-height: 50px;  /* makes all cards equal height */
+}
+
+
+.product-card {
+  background: #ffffff10;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+  backdrop-filter: blur(5px);
+  border: 1px solid #ffffff30;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px #0003;
+}
+
+.product-card img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.quote-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #13b1cd;
+  color: white;
+  border-radius: 6px;
+  transition: 0.2s;
+  box-shadow: 0 0 5px #13b1cd;
+}
+
+.product-card a,
+.quote-btn {
+    text-decoration: none;
+    color: white;            /* optional */
+    font-weight: 600;
+}
+
+.product-card a:hover,
+.quote-btn:hover {
+    text-decoration: none;   /* keeps it removed on hover */
+}
+
+.quote-btn:hover {
+  background: #1474d4;
+  box-shadow: 0 0 15px #1474d4
+}
+
+.products-footer {
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 100px;
+}
+
+
