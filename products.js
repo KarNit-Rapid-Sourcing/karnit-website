@@ -65,6 +65,8 @@ const products = [
   // category: "",
   // image: "img/products/",
   // description: ""
+
+  
 ];
 
 const grid = document.getElementById("productGrid");
@@ -106,3 +108,4 @@ document.getElementById("searchInput").addEventListener("input", (e) => {
   const filtered = products.filter(p => p.name.toLowerCase().includes(value));
   renderProducts(filtered);
 });
+
