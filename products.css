@@ -6,6 +6,7 @@
     url('img/products-bg.webp') center/cover no-repeat;
 }
 
+
 #searchInput {
   width: 90%;
   max-width: 420px;
@@ -217,3 +218,4 @@
     font-size: 0.95rem;
   }
 }
+
