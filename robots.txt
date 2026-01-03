@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://karnitsourcing.com/sitemap.xml
+Sitemap: https://www.karnitsourcing.com/sitemap.xml
